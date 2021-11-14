@@ -1,2 +1,7 @@
 # assignment-1
-# hello
+## gwendolyn leong
+## s10223182
+## not done
+### navigation bar
+### back button
+### icon size
