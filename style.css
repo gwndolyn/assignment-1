@@ -50,13 +50,13 @@
   }
   
   .button1 {
-    background-color: white;
+    background-color: #F3E7E7;
     color: black;
-    border: 2px solid #bda99e;
+    border: 2px solid black;
   }
   
   .button1:hover {
-    background-color: #bda99e;
+    background-color: black;
     color: white;
   }
 
@@ -64,8 +64,8 @@
       color:white;
       font-size: 20px;
       background-color: #707070;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 30px;
+      padding-bottom: 30px;
       transition-duration: 0.4s;
   }
 
@@ -109,7 +109,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #D5CDCD;
-    background-image: linear-gradient(to bottom right, #F3E7E7, rgb(186, 177, 238));
+    background-image: linear-gradient(to bottom right, #F3E7E7, rgb(198, 197, 201));
   }
 
   .fa {
@@ -125,5 +125,11 @@
   
   .fa:hover {
       opacity: 0.7;
+  }
+  
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
   }
   
