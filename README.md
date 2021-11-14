@@ -2,6 +2,8 @@
 ## gwendolyn leong
 ## s10223182
 ## not done
-### navigation bar
-### back button
+
 ### icon size
+### flexbox
+### email button
+### leave msg button

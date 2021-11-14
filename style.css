@@ -73,10 +73,11 @@
       color:#707070;
       background-color:white;
   }
-  
+
   #navbar {
     overflow: hidden;
     background-color: #707070;
+    
   }
   
   #navbar a {
@@ -108,6 +109,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #D5CDCD;
+    background-image: linear-gradient(to bottom right, #F3E7E7, rgb(186, 177, 238));
   }
 
   .fa {
