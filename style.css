@@ -1,3 +1,4 @@
+/*style all text*/
 *{
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -7,6 +8,7 @@
     padding: 2px;
   }
   
+  /*style headers*/
   .header{
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
@@ -15,6 +17,7 @@
     text-align: center;
   }
   
+  /*style titles*/
   .title{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -24,6 +27,7 @@
     text-align: center;
   }
 
+  /*style for contact*/
   .contact{
     font-family: Arial, Helvetica, sans-serif;
     color:black;
@@ -36,6 +40,7 @@
     padding: 0px;
   }
 
+  /*style for buttons*/
   .button {
     border: none;
     color: white;
@@ -49,17 +54,20 @@
     cursor: pointer;
   }
   
+  /*color for button*/
   .button1 {
     background-color: #F3E7E7;
     color: black;
     border: 2px solid black;
   }
   
+  /*change color on hover*/
   .button1:hover {
     background-color: black;
     color: white;
   }
 
+  /*navigation bar background*/
   .header-background{
       color:white;
       font-size: 20px;
@@ -69,11 +77,13 @@
       transition-duration: 0.4s;
   }
 
+  /*navigation bar change color on hover*/
   .header-background:hover{
       color:#707070;
       background-color:white;
   }
 
+  /*navigation bar sticky*/
   #navbar {
     overflow: hidden;
     background-color: #707070;
@@ -105,6 +115,7 @@
     padding-top: 60px;
   }
 
+  /*footer background*/
   .footer{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -112,9 +123,9 @@
     background-image: linear-gradient(to bottom right, #F3E7E7, rgb(198, 197, 201));
   }
 
+  /*social media button style*/
   .fa {
     padding: 20px;
-    font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -123,8 +134,9 @@
     color: black;
   }
   
+  /*social media button hover change color*/
   .fa:hover {
-      opacity: 0.7;
+      opacity: 0.5;
   }
   
   @media (max-width: 800px) {
@@ -132,4 +144,34 @@
       flex: 100%;
     }
   }
+  /* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+  .left {
+    background-color: #2196F3;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
   
+  .main {
+    background-color: #f1f1f1;
+    padding: 20px;
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }

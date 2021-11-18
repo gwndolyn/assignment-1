@@ -1,3 +1,4 @@
+//navigation bar action
 window.onscroll = function() {myFunction()};
         
 var navbar = document.getElementById("navbar");

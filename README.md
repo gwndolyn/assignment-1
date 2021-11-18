@@ -1,11 +1,6 @@
 # assignment-1
 ## gwendolyn leong
 ## s10223182
-## not done
-### icon size
-### flexbox
-### email button
-### leave msg button
 
 # the user audience intent and purpose. 
 ### the user audience are job recruiters who are interested in finding more about the user. This would allow them to make their decision whether to hire the user or not.
