@@ -10,3 +10,5 @@
 # What is the website catering for?
 ### This website is catering for job owners who are hiring.
 # Attribute all external source code used 
+### my wix website - https://gtgwendolyn.wixsite.com/website
+### 

@@ -2,18 +2,19 @@
 *{
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
-    color:#707070;
+    color:rgb(77, 75, 75);
     background-color:#F3E7E7;
     text-align: center;
     padding: 2px;
   }
   
   /*style headers*/
-  .header{
+  h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    color:#707070;
+    color: #707070;
     background-color:#F3E7E7;
+    text-shadow:3px 3px 8px rgb(138, 135, 135);
     text-align: center;
   }
   
@@ -27,17 +28,27 @@
     text-align: center;
   }
 
+  /*style about me border*/
+  .border{
+    text-align: center;
+    background-color: #F3E7E7;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin: 5rem;
+    border-radius: 10px;
+    border: 2px dashed #707070;
+    
+  }
+
+  body{
+    padding:0px;
+    margin:0px;
+  }
   /*style for contact*/
   .contact{
     font-family: Arial, Helvetica, sans-serif;
     color:black;
-    background-color: #F3E7E7;
-  }
-
-  div {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    background-color: white;
   }
 
   /*style for buttons*/
@@ -138,40 +149,29 @@
   .fa:hover {
       opacity: 0.5;
   }
-  
-  @media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
-    }
-  }
-  /* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
 
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-  @media screen and (max-width: 700px) {
-    .row, .navbar {   
+  /*flexbox*/
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .flex-left {
+    background-color: #F3E7E7;
+    padding: 0px;
+    flex: 50%;
+  }
+  
+  .flex-right {
+    background-color: #F3E7E7;
+    padding: 0px;
+    flex: 50%;
+  }
+  
+  /*one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
       flex-direction: column;
     }
-  }
-
-  .left {
-    background-color: #2196F3;
-    padding: 20px;
-    float: left;
-    width: 20%; /* The width is 20%, by default */
-  }
-  
-  .main {
-    background-color: #f1f1f1;
-    padding: 20px;
-    float: left;
-    width: 60%; /* The width is 60%, by default */
   }

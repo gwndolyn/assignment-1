@@ -12,3 +12,8 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+//submit form action
+function submit() {
+alert("The form has been submitted");
+}
