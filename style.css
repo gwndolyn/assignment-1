@@ -1,11 +1,13 @@
+html{
+  background-color:#F3E7E7;
+}
 /*style all text*/
 *{
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     color:rgb(77, 75, 75);
-    background-color:#F3E7E7;
     text-align: center;
-    padding: 2px;
+    padding: 1px;
   }
   
   /*style headers*/
@@ -13,7 +15,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     color: #707070;
-    background-color:#F3E7E7;
     text-shadow:3px 3px 8px rgb(138, 135, 135);
     text-align: center;
   }
@@ -24,31 +25,64 @@
     font-size: 20px;
     font-weight: bold;
     color:#707070;
-    background-color:#F3E7E7;
     text-align: center;
   }
 
-  /*style about me border*/
+  /*style border*/
   .border{
     text-align: center;
-    background-color: #F3E7E7;
     flex-wrap: wrap;
     padding: 3rem;
     margin: 5rem;
     border-radius: 10px;
     border: 2px dashed #707070;
-    
+  }
+  
+/*animation*/
+  .animation{
+  width: 200px;
+  height: 5px;
+  overflow:hidden;
+  background-color: transparent;
+  position: relative;
+  animation-name: line;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  }
+  @keyframes line {
+    0%   {background-color:rgb(101, 142, 150); left:0px; top:0px;}
+    50%  {background-color:rgb(177, 133, 141); left:100%; top:0px;}
+    100% {background-color:rgb(134, 170, 128); left:0px; top:0px;}
   }
 
+  /*ensure fullscreen*/
   body{
     padding:0px;
     margin:0px;
   }
+
+  /*image scaling*/
+  img {
+    max-width: 50%;
+    height: auto;
+  }
+
   /*style for contact*/
   .contact{
     font-family: Arial, Helvetica, sans-serif;
     color:black;
     background-color: white;
+  }
+
+  /*style for contact box*/
+  .contactbox{
+    color:white;
+    background-color: transparent;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin: 5rem;
+    background-image: url(marble.jpg);
   }
 
   /*style for buttons*/
@@ -169,7 +203,7 @@
     flex: 50%;
   }
   
-  /*one column-layout instead of two-column layout */
+  /*make 2 columns into 1 when resize*/
   @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;

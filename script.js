@@ -15,5 +15,5 @@ function myFunction() {
 
 //submit form action
 function submit() {
-alert("The form has been submitted");
+  alert("Message have been submitted! Have a nice day ahead!");
 }
