@@ -9,7 +9,15 @@ html{
     text-align: center;
     padding: 1px;
   }
-  
+/*portfolio header background*/
+  .portfolio{
+    width:100%;
+    height:150px;
+    margin:0px;
+    padding-top: 70px;
+    background-image: url(titleGIF.gif);
+  }
+
   /*style headers*/
   h1{
     font-family: 'Times New Roman', Times, serif;
@@ -17,6 +25,11 @@ html{
     color: #707070;
     text-shadow:3px 3px 8px rgb(138, 135, 135);
     text-align: center;
+    padding-top:30px;
+    width: auto;
+    height:80px;
+    margin:0px;
+    background-color: rgb(240, 206, 206);
   }
   
   /*style titles*/
@@ -162,8 +175,8 @@ html{
 
   /*footer background*/
   .footer{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    height: 50px;
     background-color: #D5CDCD;
     background-image: linear-gradient(to bottom right, #F3E7E7, rgb(198, 197, 201));
   }
