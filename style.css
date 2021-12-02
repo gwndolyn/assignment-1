@@ -50,23 +50,6 @@ html{
     border-radius: 10px;
     border: 2px dashed #707070;
   }
-  
-/*animation*/
-  .animation{
-  width: 200px;
-  height: 5px;
-  overflow:hidden;
-  background-color: transparent;
-  position: relative;
-  animation-name: line;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  }
-  @keyframes line {
-    0%   {background-color:rgb(101, 142, 150); left:0px; top:0px;}
-    50%  {background-color:rgb(177, 133, 141); left:100%; top:0px;}
-    100% {background-color:rgb(134, 170, 128); left:0px; top:0px;}
-  }
 
   /*ensure fullscreen*/
   body{
