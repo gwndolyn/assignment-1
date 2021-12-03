@@ -15,10 +15,10 @@ The "Get in Touch" box allows users to send their messages to the owner.
 
 Javascript is used so that when they click submit, a pop-up will appear, thanking the user. However, the button is currently mock and does not send the message anywhere.
 ## Technologies used
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[Adobe XD](https://www.adobe.com/sg/products/xd.html)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Adobe XD](https://www.adobe.com/sg/products/xd.html)
 ## Testing
 ### 1. Navigation bar
 Click all buttons, to ensure they lead to the correct page and opens up in the same tab
@@ -33,6 +33,6 @@ Click the social media icons and ensure that the website opens in a new tab.
 Ensured Send Message button shows a popup when pressed
 
 ## External source code used 
-My wix website - https://gtgwendolyn.wixsite.com/website
-Social media icons stylesheet w3schools - https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
-background img https://www.pinterest.com/pin/740138519981987659/
+- My wix website - https://gtgwendolyn.wixsite.com/website
+- Social media icons stylesheet w3schools - https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+- Background img https://www.pinterest.com/pin/740138519981987659/
