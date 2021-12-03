@@ -32,7 +32,7 @@ All information should be still displayed on the screen correctly.
 Click the social media icons and ensure that the website opens in a new tab.
 Ensured Send Message button shows a popup when pressed
 
-### External source code used 
+## External source code used 
 My wix website - https://gtgwendolyn.wixsite.com/website
 Social media icons stylesheet w3schools - https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
 background img https://www.pinterest.com/pin/740138519981987659/
